@@ -25,6 +25,6 @@ namespace FiscalApp.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<System.Web.Providers.Entities.User> Users { get; set; }
     }
 }
