@@ -167,6 +167,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Entry.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Form.aspx" />
     <Content Include="Models\EntriesDBModel.Context.tt">
@@ -208,6 +209,7 @@
     <Content Include="Models\EntriesDBModel.edmx.diagram">
       <DependentUpon>EntriesDBModel.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\FiscalApp.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -385,6 +387,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entry.aspx.cs">
+      <DependentUpon>Entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entry.aspx.designer.cs">
+      <DependentUpon>Entry.aspx</DependentUpon>
     </Compile>
     <Compile Include="Form.aspx.cs">
       <DependentUpon>Form.aspx</DependentUpon>
